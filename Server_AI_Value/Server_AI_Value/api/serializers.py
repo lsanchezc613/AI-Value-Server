@@ -8,7 +8,7 @@ class SingUpSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=DimUser
-        fields = ['userid', 'username' 'name', 'role', 'company', 'email', 'password', 'password2', 'Target', 'Sector', 'LocationId']
+        fields = [ 'username',  'email', 'password', 'password2']
         extra_kwargs = {
             'password': {'write_only' : True}
 

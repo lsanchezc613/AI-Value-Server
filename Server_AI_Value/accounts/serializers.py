@@ -7,7 +7,7 @@ from .models import Person
 class PersonSerializer(serializers.ModelSerializer):
     class Meta:
         model = Person
-        fields = ("fullname","role", "company", "target",
+        fields = ("fullname", "role", "company", "target",
         "sector", "city", "state", "country")
 
 # User Serializer

@@ -1,19 +1,37 @@
 @import '~antd/dist/antd.css';
+
 .App {
   text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Radar {
+  margin: auto;
+  /* background: gold; */
+  /* width: 50%; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  background-color: #282c34;
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  /* text-decoration: none; */
+  cursor: pointer;
+  display: inline-block;
+  /* line-height: var(--button-line-height);
+  padding: var(--button-padding-y) var(--button-padding-x); */
+  margin: 0;
+  height: auto;
+  border: var(--border-width) solid transparent;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  /* color: inherit;
+  background-color: transparent; */
 }
 
+
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,4 +54,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

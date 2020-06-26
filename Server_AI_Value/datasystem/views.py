@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import Data
 from .serializers import DataSerializer
 
-# Create your views here.
+# Vista para la subida de datos, pendiente implementacion completa integrada al frontend
 class DataViewSet(viewsets.ModelViewSet):
     queryset = Data.objects.all()
     serializer_class = DataSerializer
